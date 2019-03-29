@@ -1,6 +1,6 @@
 ## Project statement
 
-Build a Restaurant Finder Web application using Zomato API
+A Restaurant Finder Web application using Zomato API
 
 ## Reference
 - Goto https://developers.zomato.com/api and signup for a Free API key.
