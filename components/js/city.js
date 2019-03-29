@@ -54,7 +54,7 @@ function UI(data) {
 	show.append(parser.parseFromString(`	
 		<div class="container1" style="background-color:#fff;">
 			<a href="../Locator/locator.html?id=${res.restaurant.id}">
-			<img class="img-response" src="${res.restaurant.featured_image}">
+			<img class="img-response" src="${res.restaurant.featured_image}" alt="Smiley face">
 				<div class="innercontainer">
 			    <span class="menu-item-title"><h2>${res.restaurant.name}</h2></span>
 			    <span><h6>${res.restaurant.location.address}</h6></span>
