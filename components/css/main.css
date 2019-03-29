@@ -1,9 +1,12 @@
+
 body {
 	font-size: 16px;
 	color: #fff;
-	background-color: #d0d0d0;
+	background-color: #f5f5f5;
+	font-family: 'Nunito Sans', sans-serif;
 }
 .nav{
+	margin-top: -15px;
 	height: 15%;
 	background-color: #fff;
 	box-shadow: 0px 5px #b0b0b0;
@@ -23,7 +26,7 @@ body {
 }
 
 .button{
-  	background:#df4c65;
+  	background: #808080;
   	color:#fff;
   	position:relative;
   	/*font-size: 20px;*/
@@ -35,7 +38,7 @@ body {
   	border-radius: 80px;
   	transition:800ms ease all;
   	outline:none;
-  	border: 2px solid #df4c65;
+  	border: 2px solid  #808080;
 	display: block;
 	text-decoration: none;
 	margin: 50px auto;
@@ -43,7 +46,7 @@ body {
 }
 .button:hover{
   background:#fff;
-  color:#df4c65;
+  color: #808080;
 }
 
 
