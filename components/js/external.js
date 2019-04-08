@@ -1,7 +1,6 @@
 function changePage()
 			{
 				var getPageUrl=new URL(window.location.href);
-				console.log(getPageUrl)
 				var getPage=parseInt(getPageUrl.searchParams.get("page"))
 				var cityId=parseInt(getPageUrl.searchParams.get("id"))
 				location.replace(`?id=${cityId}&page=${getPage+1}`)
