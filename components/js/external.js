@@ -1,10 +1,9 @@
-function changePage()
-			{
+function changePage(){
 				var getPageUrl=new URL(window.location.href);
 				var getPage=parseInt(getPageUrl.searchParams.get("page"))
 				var cityId=parseInt(getPageUrl.searchParams.get("id"))
 				location.replace(`?id=${cityId}&page=${getPage+1}`)
-			}
+}
 
 
 var getPageUrl=new URL(window.location.href);
